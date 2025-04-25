@@ -12,7 +12,7 @@ use PHPUnit\Framework\AttributesTest;
 use PHPUnit\Framework\Attributes\Test;
 
 
-class UserControllerTest extends TestCase
+class UnitTest extends TestCase
 {
     use RefreshDatabase;
 
