@@ -6,25 +6,31 @@
 git clone https://github.com/reskyadhyaksa/backend-laravel.git
 ```
 
-##### 2. Install Depedency
+##### 2. Select Directory
+```
+cd backend-laravel
+```
+
+
+##### 3. Install Depedency
 
 ```
 composer install
 ```
 
-##### 3. Copy env from env.example
+##### 4. Copy env from env.example
 
 ```
 cp .env.example .env
 ```
 
-##### 4. Migrate the DB
+##### 5. Migrate the DB
 
 ```
 php artisan migrate
 ```
 
-##### 5. Run Backend
+##### 6. Run Backend
 
 ```
 php artisan serve
