@@ -47,3 +47,11 @@ yes
 ```
 php artisan serve
 ````
+
+or 
+
+##### 7. Run testing 
+
+```
+php artisan test
+```
