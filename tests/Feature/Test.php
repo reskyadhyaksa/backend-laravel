@@ -8,7 +8,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use PHPUnit\Framework\AttributesTest;
 use PHPUnit\Framework\Attributes\Test;
 
-class FeatureTest extends TestCase
+class UserControllerTest extends TestCase
 {
     use RefreshDatabase;
 
