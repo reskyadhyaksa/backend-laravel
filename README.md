@@ -25,7 +25,7 @@ copy .env.example .env
 ```
 or
 ```
-copy .env.example .env
+cp .env.example .env
 ```
 
 ##### 5. Migrate the DB
@@ -34,7 +34,15 @@ copy .env.example .env
 php artisan migrate
 ```
 
-##### 6. Run Backend
+##### 6. Then type `yes` when prompted, to create a new database.
+The prompt should look like this:  
+"WARN  The database 'backend_testing' does not exist on the 'mysql' connection."
+
+```
+yes
+```
+
+##### 7. Run Backend
 
 ```
 php artisan serve
