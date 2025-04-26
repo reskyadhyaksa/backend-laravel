@@ -21,7 +21,11 @@ composer install
 ##### 4. Copy env from env.example
 
 ```
-cp .env.example .env
+copy .env.example .env
+```
+or
+```
+copy .env.example .env
 ```
 
 ##### 5. Migrate the DB
